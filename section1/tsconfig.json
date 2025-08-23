@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "ESNext", //ESNext : 자바스크립트 최신버전
+    "module": "ESNext",
+    "outDir": "dist",
+    "strict": true, // 엄격한 타입검사
+    "moduleDetection": "force" //타입스트립트가 각각의 파일을 어떻게 감지할것이냐
+  },
+  "include": ["src"]
+}
